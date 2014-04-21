@@ -1,0 +1,52 @@
+
+#content {
+    margin-bottom: 50px;
+}
+
+#error {
+    display: block;
+    text-align: center;
+    margin-bottom: 0px;
+    visibility: hidden;
+    position: relative;
+    width: 70%;
+    margin: 0px auto;
+}
+
+#input-data {
+    -moz-appearance: textfield-multiline;
+    -webkit-appearance: textarea;
+    overflow: auto;
+    resize: vertical;
+    min-height: 250px;
+}
+
+#output-data table {
+    text-align: center;
+    margin: 0px auto;
+    cursor: pointer;
+}
+
+#output-data table td {
+    width: 5px;
+    height: 5px;
+    overflow: hidden;
+    font-size: 0px;
+    border: 1px solid #ccc;
+}
+
+.headers {
+    color: #999;
+}
+.proportions {
+    color: #5bc0de;
+}
+
+.colors {
+    color: #f0ad4e;
+}
+
+
+
+
+
